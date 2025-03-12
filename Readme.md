@@ -97,7 +97,7 @@
 3. **Application Deployment:**
    - Successful deployment of the frontend, backend, and database with persistent storage.
 4. **CI/CD Integration:**
-   - Functional ArgoCD pipeline for application deployment.
+   - Jenkins for CI and Functional ArgoCD pipeline for application deployment.
 5. **Monitoring:**
    - Effective collection and visualization of metrics with Prometheus and Grafana.
 6. **Documentation:**
