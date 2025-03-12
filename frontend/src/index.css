@@ -1,0 +1,44 @@
+/* @import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic); */
+@import url(https://fonts.googleapis.com/css?family=Quicksand:300,regular,500,600,700);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.b {
+  height: calc(100vh - 10%);
+}
+
+@layer base {
+}
+@layer components {
+  /* custom scroll bar desgin for Applayout => outlet => each page */
+  .customMainScroll::-webkit-scrollbar {
+    width: 0.3em;
+  }
+
+  .customMainScroll::-webkit-scrollbar-track {
+    /* background-color: #f8f8f8; */
+    /* background-color: #e1e1e1; */
+    background-color: rgb(189 189 189 / 0.1);
+  }
+
+  .customMainScroll::-webkit-scrollbar-thumb {
+    background-color: #dcdcdc;
+    /* background-color: #eeb37f; */
+  }
+  /* custom scroll bar desgin for Applayout => cart */
+  .customScollbarCartList::-webkit-scrollbar {
+    width: 0.5em;
+  }
+
+  .customScollbarCartList::-webkit-scrollbar-track {
+    background-color: white;
+  }
+
+  .customScollbarCartList::-webkit-scrollbar-thumb {
+    background-color: #f9a109;
+  }
+}
+@layer utilities {
+}
